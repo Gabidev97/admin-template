@@ -1,7 +1,7 @@
 import Link from "../../../node_modules/next/link"
 
 interface MenuProps {
-  url: string
+  url?: string 
   texto: string
   icone: any
   className?: string
