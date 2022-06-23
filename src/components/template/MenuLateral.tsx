@@ -28,7 +28,7 @@ const { logout } = useAuth()
 
       <ul>
         <MenuItem 
-        url="/"
+     
         onClick={logout} 
         texto="Sair" icone={Logout}
         className={`text-red-700 dark:text-red-400
